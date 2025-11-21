@@ -18,11 +18,17 @@ SplitBill-AI is a Streamlit-based application that automatically splits bills us
 ## Project Structure
 ```
 splitbill-ai/
-├─ .streamlit/ # Streamlit configuration
+├─ .streamlit/       # Streamlit configuration folder
+   ├─ config.toml    # Streamlit app settings and layout configurations
+   ├─ secrets.toml   # Stores sensitive information like API keys for model prompting
 ├─ data/ # Receipt Image
-├─ research/ # Documentation or experiments on 2 technique (donuts/vlm)
+├─ research/         
+│  ├─ research_vlm.ipynb   # Experiment results and notes using the VLM technique
+│  ├─ research_donut.ipynb # Experiment results and notes using the Donut technique
 ├─ src/
-    ├─ # Modules and helper functions
+    ├─ __init__.py   # Marks this folder as a Python package and can include setup code for model inference classes
+    ├─ vlm.py  # class to model inferencing
+    ├─ prompt.py # for prompting models 
 ├─ website.py # Main Streamlit file
 ├─ requirements.txt # Project dependencies
 └─ .gitignore
