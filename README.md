@@ -43,6 +43,15 @@ splitbill-ai/
 - **Auto-Suggestion for Bill Allocation:** Provide recommended allocations per person based on detected items.  
 - **Clear UI:** Enhance the user interface for better readability and user experience.  
 
+## 3.Donuts Vs. VLM (OpenAI GPT 4.1)
+| Feature                      | Donut                      | VLM Technique         |
+|------------------------------|---------------------------|------------------------|
+| Accuracy                     | Less Accurate             | More Accurate          |
+| Price                        | Free                      | Paid / Depends on model|
+| Extraction Latency           | 20-24s(Average)           | 15-20(Average)         |
+| Model Inference              | Local                     | API                    |
+
+
 
 ## Pre-Requistie
 1. Get your own OpenAI Api Key: [OpenAi](https://platform.openai.com/api-keys)
