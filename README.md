@@ -8,6 +8,9 @@ SplitBill-AI is a Streamlit-based application that automatically splits bills us
 - Adds taxes and additional fees proportionally.
 - Displays results in a clear and readable format.
 - Integrates GPT to parse input into structured JSON.
+  
+## Workflow
+![APP](../github-imgs/flow.png)
 
 ## Project Structure
 ```
