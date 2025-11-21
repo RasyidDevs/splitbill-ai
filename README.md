@@ -30,16 +30,16 @@ splitbill-ai/
 
 ## Analysis of the Final Product
 
-1. Weaknesses Related to the AI Model
+### 1. Weaknesses Related to the AI Model
 - **High Cost:** Using the AI model, especially with frequent API calls or large inputs, can be expensive.  
 
-2. Ideas for AI Model Improvement
+### 2. Ideas for AI Model Improvement
 - **Greater LLM Models:** Utilize larger or more advanced language models to improve parsing accuracy and context understanding.  
 
-3. Weaknesses of the Product
+### 3. Weaknesses of the Product
 - **Logical Validation Issues:** The product may not always validate the logic of input data, leading to potential inconsistencies in bill splitting or total calculations.  
 
-4. Ideas for Product Improvement
+### 4. Ideas for Product Improvement
 - **Auto-Suggestion for Bill Allocation:** Provide recommended allocations per person based on detected items.  
 - **Clear UI:** Enhance the user interface for better readability and user experience.  
 
